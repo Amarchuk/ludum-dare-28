@@ -11,4 +11,5 @@ setTimeout(function() {
     game.state.add('levelselector', MouseGame.LevelSelector);
     game.state.add('intro', MouseGame.Intro);
     game.state.add('ending', MouseGame.Ending);
+	game.state.add('ending2', MouseGame.Ending2);
 }, 1);

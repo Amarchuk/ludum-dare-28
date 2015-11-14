@@ -356,8 +356,8 @@ MouseGame.Commands.prototype = {
                 // goToLevelSecletor();
                 MouseGame.Commands.prototype.resetLevel();
 
-                if (mapName === 'level8') {
-                    game.state.start('ending', true, false);
+                if (mapName === 'level7') {
+                    game.state.start('ending2', true, false);
                 } else {
                     MouseGame.Commands.prototype.goToLevelSecletor();
                 }
